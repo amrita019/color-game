@@ -39,7 +39,7 @@ class LoginScreen extends React.Component {
             usernameError } = this.state;
     return (
       <div className="main">
-        <div class="login" style={{flexDirection: "column", color:"red"}}>
+        <div class="login" style={{flexDirection: "column", color:"red" , width:72}}>
           <Input
             type="text"
             name="username"
